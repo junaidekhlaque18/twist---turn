@@ -20,3 +20,8 @@ function updateCountdown() {
 
 updateCountdown();
 setInterval(updateCountdown, 1000);
+function toggleMenu(){
+
+document.getElementById("navMenu").classList.toggle("active");
+
+}
