@@ -419,6 +419,43 @@ justify-content:center;
 gap:15px;
 flex-wrap:wrap;
 }
+.page-title{
+padding:70px 8% 30px;
+text-align:center;
+}
+
+.page-title h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
+.page-title p{
+color:#bbb;
+}
+
+.competition-list{
+padding:30px 8% 80px;
+}
+
+.competition-box{
+background:#151515;
+padding:35px;
+border-radius:20px;
+border:1px solid #222;
+max-width:700px;
+margin:auto;
+}
+
+.competition-box h2{
+color:#00bfff;
+margin:20px 0;
+}
+
+.competition-box p{
+margin:12px 0;
+line-height:1.7;
+color:#ddd;
+}
 
 .btn-outline{
 background:transparent;
