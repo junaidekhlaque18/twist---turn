@@ -230,3 +230,47 @@ font-size:18px;
 line-height:1.8;
 color:#ddd;
 }
+footer{
+background:#111;
+padding:50px 8%;
+margin-top:70px;
+}
+
+.footer-content{
+text-align:center;
+}
+
+.footer-content h2{
+color:#00bfff;
+font-size:32px;
+margin-bottom:10px;
+}
+
+.footer-content p{
+color:#bbb;
+margin:10px 0;
+}
+
+.footer-links{
+margin:25px 0;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.footer-links a{
+color:white;
+text-decoration:none;
+transition:.3s;
+}
+
+.footer-links a:hover{
+color:#00bfff;
+}
+
+.copyright{
+margin-top:20px;
+font-size:14px;
+color:#777;
+}
