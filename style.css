@@ -181,4 +181,33 @@ margin:12px 0;
 color:#ddd;
 line-height:1.7;
 }
+.stats{
+padding:80px 8%;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+gap:20px;
+}
 
+.stat{
+background:#151515;
+padding:30px;
+border-radius:20px;
+text-align:center;
+border:1px solid #222;
+transition:.3s;
+}
+
+.stat:hover{
+transform:translateY(-6px);
+border-color:#00bfff;
+}
+
+.stat h2{
+color:#00bfff;
+font-size:38px;
+margin-bottom:10px;
+}
+
+.stat p{
+color:#ccc;
+}
